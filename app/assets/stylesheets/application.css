@@ -21,3 +21,14 @@ th { border-bottom: 1px solid #DDD; }
   height: 30px;
   width: auto;
 }
+
+.navbar {
+  min-height: 38px;
+  background-color: #ffa631;
+}
+.navbar a.brand { font-size: 18px; }
+.navbar a.brand:hover {
+ color: #ffa631;
+ background-color: transparent;
+ text-decoration: none;
+}

@@ -1,24 +1,35 @@
-# README
+# Rg
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A backend with activeadmin
 
-Things you may want to cover:
+## requirements
+* user should be able to login,signup,signout
+* user should be able to edit what he/she has posted or commented
+* signed in users act as admin on own page
+* users can edit own profile
+* viewers cannot comment without login
+* Application should run on heroku
 
-* Ruby version
 
-* System dependencies
+## tech
 
-* Configuration
+* Rails 5
+* Activeadmin
+* Heroku
+ ## gems added
+* gem 'carrierwave'
 
-* Database creation
+* gem 'mini_magick'
 
-* Database initialization
+* gem 'devise'
 
-* How to run the test suite
+* gem 'gravtastic'
+* gem 'net-ssh'
 
-* Services (job queues, cache servers, search engines, etc.)
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-* Deployment instructions
+Please make sure to update tests as appropriate.
 
-* ...
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
